@@ -33,3 +33,8 @@ body {
   fill: silver;
   margin: 1rem;
 }
+
+.external-svg {
+  width: 40rem;
+  height: 40rem;
+}
