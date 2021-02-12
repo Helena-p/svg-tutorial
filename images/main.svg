@@ -1,1 +1,11 @@
-<svg width="400" height="400" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/svg"></svg>
+<svg width="400" height="400" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/svg">
+
+
+
+<circle cx="120" cy="50" r="26" fill="#ffffff" />
+
+<circle cx="120" cy="80" r="26" fill="#ffffff" />
+
+<circle cx="120" cy="110" r="26" fill="#ffffff" />
+
+</svg>
