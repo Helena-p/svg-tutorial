@@ -24,9 +24,12 @@ body {
 .div {
   width: 20rem;
   height: 15rem;
-  /* border: 1px solid gray; */
+  margin: 1rem;
 }
 
 .fancy__card-rect {
+  width: 20rem;
+  height: 15rem;
   fill: silver;
+  margin: 1rem;
 }
