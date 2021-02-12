@@ -23,6 +23,36 @@ body {
 .hero__img {
   width: 100vw;
   height: 100vh;
-  background: url("../anim_img/garlic.jpeg") no-repeat center center fixed;
+  background: linear-gradient(rgba(70, 52, 34, 0.6), rgba(51, 25, 0, 0.9)),
+    url("../anim_img/garlic.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
+}
+.header {
+  position: relative;
+}
+
+.header__text-box {
+  width: 90rem;
+  height: 20rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2rem;
+  line-height: 4rem;
+  font-family: "Helvetica", sans-serif;
+}
+
+.header__main {
+  font-size: 7rem;
+  font-weight: 700;
+}
+
+.header__sub {
+  display: block;
+  position: absolute;
+  font-size: 4rem;
+  font-weight: 300;
+  margin-top: 1.6rem;
 }
