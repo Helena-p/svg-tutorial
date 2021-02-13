@@ -64,7 +64,7 @@ body {
   animation-name: moveInRight;
   animation-duration: 1s;
   animation-delay: 1.2s;
-  animation-fill-mode:backwards;
+  animation-fill-mode: backwards;
   backface-visibility: hidden;
 }
 
@@ -111,7 +111,9 @@ body {
 }
 
 /* ----- Hover effect plugIn from Hover.css "Bounce In" ----- */
-.first__card-btn:hover, .first__card-btn:focus, .first__card-btn:active {
+.first__card-btn:hover,
+.first__card-btn:focus,
+.first__card-btn:active {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
@@ -171,10 +173,10 @@ body {
     transform: translateX(200px);
   }
   80% {
-    transform: translateX(-20px)
+    transform: translateX(-20px);
   }
   100% {
     opacity: 1;
-    translate(0);
+    transform: translate(0);
   }
 }
