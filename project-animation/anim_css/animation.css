@@ -63,7 +63,7 @@ body {
   margin-top: 1.6rem;
   animation-name: moveInRight;
   animation-duration: 1s;
-  animation-delay: 1.5s;
+  animation-delay: 1.2s;
   animation-fill-mode:backwards;
   backface-visibility: hidden;
 }
@@ -102,10 +102,20 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   border: none;
-  box-shadow: 1.4rem 1.4rem 2.4rem rgba(57, 55, 55, 0.6);
+  /* box-shadow: 1.4rem 1.4rem 2.4rem rgba(57, 55, 55, 0.6); */
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
-.first__card-btn:hover {
+/* ----- Hover effect plugIn from Hover.css "Bounce In" ----- */
+.first__card-btn:hover, .first__card-btn:focus, .first__card-btn:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
 /* ----- Text box with quotes ----- */
