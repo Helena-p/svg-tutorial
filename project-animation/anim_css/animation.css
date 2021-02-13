@@ -112,7 +112,8 @@ body {
   width: 42rem;
   height: 40rem;
   background-color: rgba(119, 119, 119, 0.6);
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
+  transition: 2s ease-out;
 }
 
 .card--quote1 {
@@ -120,6 +121,7 @@ body {
   top: -2rem;
   left: -1rem;
   font-size: 6rem;
+  opacity: 0.6;
 }
 
 .card--quote2 {
@@ -127,6 +129,7 @@ body {
   bottom: -2rem;
   right: -1rem;
   font-size: 6rem;
+  opacity: 0.6;
 }
 
 .first__card-text {
@@ -134,9 +137,15 @@ body {
   font-family: "Helvetica", sans-serif;
   font-weight: 400;
   font-size: 2rem;
+  font-style: italic;
   margin-left: 2rem;
   letter-spacing: 0.2rem;
   line-height: 1.5;
+  opacity: 0.8;
+}
+
+.text--box:hover {
+  transform: scale(1.2);
 }
 
 /* ----- Animation selectors ----- */
