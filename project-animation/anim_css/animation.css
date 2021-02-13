@@ -61,6 +61,11 @@ body {
   font-size: 4rem;
   font-weight: 300;
   margin-top: 1.6rem;
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode:backwards;
+  backface-visibility: hidden;
 }
 
 /* ----- Main content ----- */
@@ -97,6 +102,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   border: none;
+  box-shadow: 1.4rem 1.4rem 2.4rem rgba(57, 55, 55, 0.6);
 }
 
 .first__card-btn:hover {
@@ -149,5 +155,16 @@ body {
 }
 
 /* ----- Animation selectors ----- */
-@keyframes {
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  80% {
+    transform: translateX(-20px)
+  }
+  100% {
+    opacity: 1;
+    translate(0);
+  }
 }
